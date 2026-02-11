@@ -1,0 +1,14 @@
+C:\Users\PauloGuilhermeFideli\IdeaProjects\SWAPI\frontend\bin\Debug\net10.0\frontend.exe
+C:\Users\PauloGuilhermeFideli\IdeaProjects\SWAPI\frontend\bin\Debug\net10.0\frontend.deps.json
+C:\Users\PauloGuilhermeFideli\IdeaProjects\SWAPI\frontend\bin\Debug\net10.0\frontend.runtimeconfig.json
+C:\Users\PauloGuilhermeFideli\IdeaProjects\SWAPI\frontend\bin\Debug\net10.0\frontend.dll
+C:\Users\PauloGuilhermeFideli\IdeaProjects\SWAPI\frontend\bin\Debug\net10.0\frontend.pdb
+C:\Users\PauloGuilhermeFideli\IdeaProjects\SWAPI\frontend\obj\Debug\net10.0\frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PauloGuilhermeFideli\IdeaProjects\SWAPI\frontend\obj\Debug\net10.0\frontend.AssemblyInfoInputs.cache
+C:\Users\PauloGuilhermeFideli\IdeaProjects\SWAPI\frontend\obj\Debug\net10.0\frontend.AssemblyInfo.cs
+C:\Users\PauloGuilhermeFideli\IdeaProjects\SWAPI\frontend\obj\Debug\net10.0\frontend.csproj.CoreCompileInputs.cache
+C:\Users\PauloGuilhermeFideli\IdeaProjects\SWAPI\frontend\obj\Debug\net10.0\frontend.dll
+C:\Users\PauloGuilhermeFideli\IdeaProjects\SWAPI\frontend\obj\Debug\net10.0\refint\frontend.dll
+C:\Users\PauloGuilhermeFideli\IdeaProjects\SWAPI\frontend\obj\Debug\net10.0\frontend.pdb
+C:\Users\PauloGuilhermeFideli\IdeaProjects\SWAPI\frontend\obj\Debug\net10.0\frontend.genruntimeconfig.cache
+C:\Users\PauloGuilhermeFideli\IdeaProjects\SWAPI\frontend\obj\Debug\net10.0\ref\frontend.dll
