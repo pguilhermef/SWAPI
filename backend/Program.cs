@@ -1,8 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Usuario usuario = new()
-{
-  Nome = "Guilherme",
-  Email = "pgui@gmail.com"
-};
+﻿var client = new HttpClient();
+client.BaseAddress = new Uri("https://swapi.dev/api/");
 
-Console.WriteLine(usuario.Id);
+var request = await client.GetAsync("people/2");
+var response = await request.Content.ReadAsStringAsync();
+
+Console.WriteLine(response);
