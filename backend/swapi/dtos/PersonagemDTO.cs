@@ -1,3 +1,4 @@
+namespace backend.swapi.dtos;
 class PersonagemDTO
 {
   public string Id { get; set; }

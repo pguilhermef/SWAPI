@@ -1,7 +1,6 @@
-﻿var client = new HttpClient();
-client.BaseAddress = new Uri("https://swapi.dev/api/");
+﻿using backend.swapi.external;
 
-var request = await client.GetAsync("people/2");
-var response = await request.Content.ReadAsStringAsync();
+HttpClient httpClient = new HttpClient();
+var personagemUm = new SwapiService(httpClient).ObterPersonagemAsync(1);
 
-Console.WriteLine(response);
+Console.WriteLine(personagemUm);
