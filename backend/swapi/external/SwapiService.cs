@@ -1,3 +1,4 @@
+using System.Net.Http.Json;
 using System.Text.Json;
 
 namespace backend.swapi.external;
@@ -14,27 +15,11 @@ class SwapiService{
 
   public async Task<PersonagemDTO> ObterPersonagemAsync(int id)
   {
-    try
-    {
-      var response = await _httpClient.GetAsync($"people/{id}");
+    var response = await _httpClient.GetAsync($"people/{id}");
 
-      if (!response.IsSuccessStatusCode)
-      {
-        return null;
-      }
-
-      var json = await response.Content.ReadAsStringAsync();
-
-      var options = new JsonSerializerOptions
-      {
-        PropertyNameCaseInsensitive = true
-      };
-
-      return JsonSerializer.Deserialize<PersonagemDTO>(json, options);
-    }
-    catch
-    {
+    if (!response.IsSuccessStatusCode)
       return null;
-    }
+    
+    return await response.Content.ReadFromJsonAsync<PersonagemDTO>();
   }
 }

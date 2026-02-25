@@ -1,6 +1,7 @@
-﻿using backend.swapi.external;
+﻿using System.Text.Json;
+using backend.swapi.external;
 
 HttpClient httpClient = new HttpClient();
-var personagemUm = new SwapiService(httpClient).ObterPersonagemAsync(1);
+var personagemUm = new SwapiService(httpClient).ObterPersonagemAsync(3);
 
-Console.WriteLine(personagemUm);
+Console.WriteLine(JsonSerializer.Serialize(personagemUm));
