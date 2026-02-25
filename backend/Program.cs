@@ -1,5 +1,5 @@
 ﻿using System.Text.Json;
-using backend.swapi.external;
+using backend.swapi.services;
 
 HttpClient httpClient = new HttpClient();
 var personagemUm = new SwapiService(httpClient).ObterPersonagemAsync(3);

@@ -1,7 +1,7 @@
 using System.Net.Http.Json;
 using System.Text.Json;
 
-namespace backend.swapi.external;
+namespace backend.swapi.services;
 using backend.swapi.dtos;
 
 class SwapiService{
