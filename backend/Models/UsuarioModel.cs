@@ -1,4 +1,4 @@
-namespace StarWarsApi.Models;
+namespace backend.Models;
 class Usuario
 {
   public required string Nome { get; set; }

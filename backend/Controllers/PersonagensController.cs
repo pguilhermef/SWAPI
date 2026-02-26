@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using StarWarsApi.Services;
 
-namespace StarWarsApi.Controllers;
+namespace backend.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

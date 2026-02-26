@@ -1,4 +1,4 @@
-namespace StarWarsApi.Models;
+namespace backend.Models;
 
 public class PersonagemDTO
 {

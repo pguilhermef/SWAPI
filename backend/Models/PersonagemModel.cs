@@ -1,4 +1,4 @@
-namespace StarWarsApi.Models;
+namespace backend.Models;
 class Personagem
 {
   public required string Id { get; set; }

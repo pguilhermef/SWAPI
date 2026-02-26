@@ -1,8 +1,8 @@
 using System.Net.Http.Json;
 using System.Text.Json;
 
-namespace StarWarsApi.Services;
-using StarWarsApi.Models;
+namespace backend.Services;
+using backend.Models;
 
 public class SwapiService{
   private readonly HttpClient _httpClient;
